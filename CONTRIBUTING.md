@@ -11,7 +11,7 @@ When adding a new feature to the project, work should be completed in a branch f
 
 You can then make changes in your branch. When you are ready to add this branch to the remote, run:  
 
-`git push origin my_new_feature`
+`git push -u origin my_new_feature`
 
 You will only need to run this command the first time you want to commit your local changes to the remote branch. After the first commit, a simple `git push` from your repository root will push committed changes to the remote repository.
 
