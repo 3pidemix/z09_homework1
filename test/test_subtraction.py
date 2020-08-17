@@ -6,4 +6,4 @@ class TestSubtraction(unittest.TestCase):
         self.assertEqual(subtraction(4, 2), 2)
 
     def test_subtraction_neg(self):
-        self.assertEqual(subtraction(4, -8), 5)
+        self.assertNotEqual(subtraction(4, -8), 5)

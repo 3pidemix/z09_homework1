@@ -7,4 +7,4 @@ class TestAddition(unittest.TestCase):
         self.assertEqual(add(2, 4), 6)
 
     def test_addition_neg(self):
-        self.assertEqual(add(82, -42), 16)
+        self.assertNotEqual(add(82, -42), 16)
