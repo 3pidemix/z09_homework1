@@ -7,4 +7,4 @@ class TestAddition(unittest.TestCase):
         self.assertEqual(inc(40), 41)
 
     def test_increment_neg(self):
-        self.assertEqual(inc(10), 40)
+        self.assertNotEqual(inc(10), 40)
