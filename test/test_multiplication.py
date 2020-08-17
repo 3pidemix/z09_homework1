@@ -7,4 +7,4 @@ class TestMultiplication(unittest.TestCase):
         self.assertEqual(multiplication(2, 4), 8)
 
     def test_multiplication_neg(self):
-        self.assertNotEqual(add(2, 5), 11)
+        self.assertNotEqual(multiplication(2, 5), 11)
